@@ -50,11 +50,8 @@
     let endpoint = "https://script.google.com/macros/s/AKfycbwSZpYbIKVz6LD9r60T8oP3v2rCS2w3_tBK8isk-MsUTXQHhd4/exec?v=success";
     let url_string = window.location.href;
     let url = new URL(url_string);
-    console.log(url_string);
     let sessionId = url.searchParams.get("session_id");
-    console.log(sessionId);
     let adsURL = endpoint+"&session_id="+sessionId;
-    console.log(adsURL);
     myIframe.src = adsURL;
 
   });
