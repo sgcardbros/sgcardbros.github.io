@@ -53,7 +53,7 @@
     console.log(url_string);
     let sessionId = url.searchParams.get("session_id");
     console.log(sessionId);
-    let adsURL = endpoint+"?session_id="+sessionId;
+    let adsURL = endpoint+"&session_id="+sessionId;
     console.log(adsURL);
     myIframe.src = adsURL;
 
