@@ -580,19 +580,11 @@
   
     }
   
-  
-  .carousel {
-  
-      height: 600px !important;
-      /* -webkit-perspective: none !important; 
-      perspective: none !important; */
-  
-  
-  }
+
   
   .carousel .carousel-item>img {
       padding: 0 40px;
       margin-left: -50%;
       margin-top: -80%;
-      width: 200% !important;
+      width: 200%;
   }   
