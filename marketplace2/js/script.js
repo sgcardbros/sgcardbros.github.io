@@ -104,12 +104,9 @@ const getFirst = async () => {
     var contact = doc.data().contact;
     var dateCreated = doc.data().created;
     var date = dateCreated.toDate();
-    console.log(date)
-      var mm = date.getMonth() + 1;
-    console.log(mm)
-      var dd = date.getDate();
-    console.log(dd)
-      var yyyy = date.getFullYear();
+    var mm = date.getMonth() + 1;
+    var dd = date.getDate();
+    var yyyy = date.getFullYear();
     var created = dd + '/' + mm + '/' + yyyy;
     //var created = dateCreated.toDate().toDateString()
 
