@@ -26,25 +26,14 @@
       body {
          font-size: 12px !important;
              
-      }
-      
-          
-       i.small {
-          font-size: 24px;
-         
-       }   
+      }  
       
        h1 {
-           font-size: 44px;
+           font-size: 44px !important;
         }
   
        h3 {
-           font-size: 22px;
-        }
-   
-   
-       h5 {
-           font-size: 14px;
+           font-size: 22px !important;
         }
   
         nav .brand-logo {
@@ -102,11 +91,6 @@
       
       }
       
-      nav ul li {
-      
-      float: none;
-      
-      }
       
       .padding16 {
       
@@ -120,7 +104,7 @@
       
       }
       
-            .modal, .modal-content { 
+       .modal, .modal-content { 
   
           width: 350px !important ;
   
