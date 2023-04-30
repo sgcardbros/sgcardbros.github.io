@@ -72,7 +72,7 @@
       }
       
       
-      nav {
+      .navMedia {
       
         height: 55px !important;
       
@@ -173,7 +173,7 @@
     width: 100%;
     height: 100px !important;
     background-color: transparent !important;
-    box-shadow: none;
+    box-shadow: none !important;
     color: white !important;
     transition: 0.3s;
     opacity: 1;
@@ -182,8 +182,8 @@
   
   .displayNav {
       top: 0px;
-      background-color: white;
-      color: black;
+      background-color: white !important;
+      color: black !important;
       transition: 0.3s;
       opacity: 1;
   }
